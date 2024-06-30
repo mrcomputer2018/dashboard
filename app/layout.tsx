@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Noto_Sans_Display } from "next/font/google";
 import {
     ClerkProvider,
+    SignedIn,
+    SignedOut,
+    SignInButton,
+    UserButton,
   } from '@clerk/nextjs';
 
 import "./globals.css";
@@ -25,6 +29,12 @@ export default function RootLayout({
         <ClerkProvider>
             <html lang="pt-br">
                 <body className={noto.className}>
+                <SignedOut>          
+                    <SignInButton />        
+                </SignedOut>        
+                <SignedIn>          
+                    <UserButton />        
+                </SignedIn>
                     {children}
                 </body>
             </html>
