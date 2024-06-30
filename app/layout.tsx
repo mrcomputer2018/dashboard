@@ -29,12 +29,6 @@ export default function RootLayout({
         <ClerkProvider>
             <html lang="pt-br">
                 <body className={noto.className}>
-                <SignedOut>          
-                    <SignInButton />        
-                </SignedOut>        
-                <SignedIn>          
-                    <UserButton />        
-                </SignedIn>
                     {children}
                 </body>
             </html>
