@@ -1,4 +1,3 @@
-import { Icon } from "lucide-react";
 import CustomIcon from "../CustomIcon";
 import CustomTooltip from "../CustomTooltip.tsx";
 import { CardSummaryProps } from "./CardSummary.types";
