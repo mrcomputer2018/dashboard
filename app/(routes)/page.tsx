@@ -1,5 +1,5 @@
 import { UserButton } from "@clerk/nextjs";
-import { Icon, UsersRound } from "lucide-react";
+import { BookOpenCheck, UsersRound, Waypoints } from "lucide-react";
 import CardSummary from "../_components/CardSummary";
 
 export default function Home() {
@@ -20,19 +20,19 @@ export default function Home() {
                 />
 
                 <CardSummary 
-                icon={UsersRound}
-                total="12.450"
-                average={15}
-                title="Companias Criadas"
-                tooltipText="Veja todas as companias criadas"
+                icon={Waypoints}
+                total="86.5%"
+                average={80}
+                title="Rendimento total"
+                tooltipText="Veja todo o resumo"
                 />
-                
+
                 <CardSummary 
-                icon={UsersRound}
-                total="12.450"
-                average={15}
-                title="Companias Criadas"
-                tooltipText="Veja todas as companias criadas"
+                icon={BookOpenCheck}
+                total="363.95BRL"
+                average={30}
+                title="Taxa de rejeição"
+                tooltipText="Veja todas as taxas de rejeição"
                 />
             </div>
         </div>
