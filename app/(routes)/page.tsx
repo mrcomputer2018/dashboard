@@ -18,8 +18,6 @@ export default function Home() {
                 title="Companias Criadas"
                 tooltipText="Veja todas as companias criadas"
                 />
-                <CardSummary />
-                <CardSummary />
             </div>
         </div>
     );
