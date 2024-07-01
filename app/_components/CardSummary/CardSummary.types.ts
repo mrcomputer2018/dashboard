@@ -1,4 +1,4 @@
-import { LucideIcon } from 'react-lucide';
+import { LucideIcon } from "lucide-react";
 
 export type CardSummaryProps = {
     icon: LucideIcon;
